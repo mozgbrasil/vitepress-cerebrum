@@ -3,7 +3,7 @@ import { shared } from './shared'
 import { pt } from './pt'
 
 export default defineConfig({
-  base: 'https://mozgbrasil.github.io/vitepress-cerebrum/', // Substitua com o nome do seu repositório
+  base: './', // Substitua com o nome do seu repositório
   ...shared,
   locales: {
     root: { label: 'Português', ...pt }

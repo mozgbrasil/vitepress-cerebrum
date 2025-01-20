@@ -29,8 +29,8 @@ jobs:
         run: npm run build
 
       # Copiar o arquivo CNAME para o diretório dist
-      - name: Copy CNAME file
-        run: cp CNAME docs/.vitepress/dist/
+      # - name: Copy CNAME file
+      # run: cp CNAME docs/.vitepress/dist/
 
       # Runs a single command using the runners shell
       - name: 👇️ Run a one-line script
